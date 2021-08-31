@@ -1,0 +1,19 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack && cp static/* build",
+    "serve": "webpack && cp static/* build && http-server build"
+  },
+  "author": "Kenneth Grauel <github.com/kgrauel>",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "http-server": "^13.0.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "private": true
+}
